@@ -4,30 +4,69 @@
     "description": "Teste os seus conhecimentos sobre a série animada Yu-Gi-oh!",
     "questions": [
       {
-        "image": "https://media.tenor.com/images/094f1a0914d7a413bfd7cc63c3abbf03/tenor.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "",
+        "title": "quantos espiritos antigos dividem o corpo do Yugi?",
+        "description": "",
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "nem um",
+          "um",
+          "dois",
+          "três"
+        ]
+      },
+      {
+        "image": "https://media.tenor.com/images/094f1a0914d7a413bfd7cc63c3abbf03/tenor.gif",
+        "title": "Qual o nome do faraó?",
+        "description": "uma dica, não é Yugi.",
+        "answer": 0,
+        "alternatives": [
+          "Atem",
+          "Yuga",
+          "Felipe",
+          "Wokaguru"
         ]
       },
       {
         "image": "https://66.media.tumblr.com/tumblr_lye622PKGC1rn95k2o1_500.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
+        "title": "qual é o valor da soma das derrotas do Yugi e do Faraó?",
+        "description": "",
+        "answer": 2,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "duas",
+           "três",
+           "quatro",
+           "nem uma, Yugi não perde, o anime tem o nome dele"
+        ]
+      },
+      {
+        "image": "",
+        "title": "quem é o melhor amigo do Yugi?",
+        "description": "talvez ele goste de um dragão de olhos vermelhos.",
+        "answer": 3,
+        "alternatives": [
+          "Seto Kaiba",
+          "Tristan Taylor",
+          "Téa Gardner",
+          "Joey Wheeler"
+        ]
+      },
+      {
+        "image": "",
+        "title": "carta preferida do faraó?",
+        "description": "",
+        "answer": 2,
+        "alternatives": [
+          "Rei Caveira",
+          "Exodia",
+          "Mago Negro",
+          "Maga Negra"
         ]
       }
     ],
     "external": [
-      ""
+      "https://aluraquiz-css.omariosouto.vercel.app/",
+      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
     ],
     "theme": {
       "colors": {
