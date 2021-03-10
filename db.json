@@ -1,83 +1,82 @@
 {
-    "bg": "https://images7.alphacoders.com/875/thumb-1920-875040.jpg",
-    "title": "Yu-gi-oh! Quiz",
-    "description": "Teste os seus conhecimentos sobre a série animada Yu-Gi-oh!",
-    "questions": [
-      {
-        "image": "",
-        "title": "quantos espiritos antigos dividem o corpo do Yugi?",
-        "description": "",
-        "answer": 1,
-        "alternatives": [
-          "nem um",
-          "um",
-          "dois",
-          "três"
-        ]
-      },
-      {
-        "image": "https://media.tenor.com/images/094f1a0914d7a413bfd7cc63c3abbf03/tenor.gif",
-        "title": "Qual o nome do faraó?",
-        "description": "uma dica, não é Yugi.",
-        "answer": 0,
-        "alternatives": [
-          "Atem",
-          "Yuga",
-          "Felipe",
-          "Wokaguru"
-        ]
-      },
-      {
-        "image": "https://66.media.tumblr.com/tumblr_lye622PKGC1rn95k2o1_500.gif",
-        "title": "qual é o valor da soma das derrotas do Yugi e do Faraó?",
-        "description": "",
-        "answer": 2,
-        "alternatives": [
-           "duas",
-           "três",
-           "quatro",
-           "nem uma, Yugi não perde, o anime tem o nome dele"
-        ]
-      },
-      {
-        "image": "",
-        "title": "quem é o melhor amigo do Yugi?",
-        "description": "talvez ele goste de um dragão de olhos vermelhos.",
-        "answer": 3,
-        "alternatives": [
-          "Seto Kaiba",
-          "Tristan Taylor",
-          "Téa Gardner",
-          "Joey Wheeler"
-        ]
-      },
-      {
-        "image": "",
-        "title": "carta preferida do faraó?",
-        "description": "",
-        "answer": 2,
-        "alternatives": [
-          "Rei Caveira",
-          "Exodia",
-          "Mago Negro",
-          "Maga Negra"
-        ]
-      }
-    ],
-    "external": [
-      "https://aluraquiz-css.omariosouto.vercel.app/",
-      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
-    ],
-    "theme": {
-      "colors": {
-        "primary": "#03a9f4",
-        "secondary": "#d500f9",
-        "mainBg": "#2c387e",
-        "contrastText": "#FFFFFF",
-        "wrong": "#FF5722",
-        "success": "#4CAF50"
-      },
-      "borderRadius": "4px"
+  "bg": "https://images7.alphacoders.com/875/thumb-1920-875040.jpg",
+  "title": "Yu-gi-oh! Quiz",
+  "description": "Teste os seus conhecimentos sobre a série animada Yu-Gi-oh!",
+  "questions": [
+    {
+      "image": "https://i.pinimg.com/originals/e5/8e/79/e58e794fd1acb2a41e57cbccd1a53111.gif",
+      "title": "quantos espiritos antigos dividem o corpo do Yugi?",
+      "description": "",
+      "answer": 1,
+      "alternatives": [
+        "nem um",
+        "um",
+        "dois",
+        "três"
+      ]
+    },
+    {
+      "image": "https://media.tenor.com/images/094f1a0914d7a413bfd7cc63c3abbf03/tenor.gif",
+      "title": "Qual o nome do faraó?",
+      "description": "uma dica, não é Yugi.",
+      "answer": 0,
+      "alternatives": [
+        "Atem",
+        "Yuga",
+        "Felipe",
+        "Wokaguru"
+      ]
+    },
+    {
+      "image": "https://66.media.tumblr.com/tumblr_lye622PKGC1rn95k2o1_500.gif",
+      "title": "qual é o valor da soma das derrotas do Yugi e do Faraó?",
+      "description": "",
+      "answer": 2,
+      "alternatives": [
+        "duas",
+        "três",
+        "quatro",
+        "nem uma, Yugi não perde, o anime tem o nome dele"
+      ]
+    },
+    {
+      "image": "https://pa1.narvii.com/6328/9dada10f67fe7ddfd6094522ea4542e3603f0745_hq.gif",
+      "title": "quem é o melhor amigo do Yugi?",
+      "description": "talvez ele goste de um dragão de olhos vermelhos.",
+      "answer": 3,
+      "alternatives": [
+        "Seto Kaiba",
+        "Tristan Taylor",
+        "Téa Gardner",
+        "Joey Wheeler"
+      ]
+    },
+    {
+      "image": "https://media3.giphy.com/media/Snd51fjjX6s0M/giphy.gif",
+      "title": "carta preferida do faraó?",
+      "description": "",
+      "answer": 2,
+      "alternatives": [
+        "Rei Caveira",
+        "Exodia",
+        "Mago Negro",
+        "Maga Negra"
+      ]
     }
+  ],
+  "external": [
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#03a9f4",
+      "secondary": "#d500f9",
+      "mainBg": "#2c387e",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
   }
-  
+}

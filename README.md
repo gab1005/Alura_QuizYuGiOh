@@ -1,78 +1,88 @@
-# Example app with styled-components
+# YuGiQuiz
+<h1>
+  <img src="./public/capa_yugiquiz.png" alt="Tela Inicial" title="Tela Inicial" />
+</h1>
 
-This example features how you use a different styling solution than [styled-jsx](https://github.com/zeit/styled-jsx) that also supports universal styles. That means we can serve the required styles for the first render within the HTML and then load the rest in the client. In this case we are using [styled-components](https://github.com/styled-components/styled-components).
+## Carregamento
 
-For this purpose we are extending the `<Document />` and injecting the server side rendered styles into the `<head>`, and also adding the `babel-plugin-styled-components` (which is required for server side rendering). Additionally we set up a global [theme](https://www.styled-components.com/docs/advanced#theming) for styled-components using NextJS custom [`<App>`](https://nextjs.org/docs/advanced-features/custom-app) component.
+<img src="./public/carregamento_yugiquiz_02.gif" alt="Carregamento" title="Carregamento" />
 
-## Deploy your own
+## Marcando alternativas
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+<img src="./public/respostas_yugiquiz.gif" alt="Respondendo" title="Respondendo" />
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-styled-components&project-name=with-styled-components&repository-name=with-styled-components)
+---
+<h3 align="center">
+  <a href="https://www.google.com">Visite a aplicação</a>
+</h3>
 
-## How to use
+---
+## Indice
+- [Discrição](#-Discrição)
+- [Status](#-Status)
+- [Aplicações do projeto](#-Aplicações-do-projeto)
+- [Tecnologias](#-Tecnologias)
+- [Como baixar](#-Como-baixar)
+- [Autor](#-Autor)
+- [Licença](#-Licença)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+---
+## Discrição
+
+Aplicação feita em aulas ministradas pela equipe da [Alura](https://www.alura.com.br/).
+A aplicação é um quiz sobre o anime YuGiOh!, se divita respondendo ele em [aqui](https://www.google.com).
+
+---
+## Status
+Em construção.
+
+---
+## Aplicações do projeto
+- [X] Base das animações.
+- [X] Questões do quiz.
+- [X] Mostrar resultado do quiz.
+- [ ] Consertar bugs das animações.
+
+---
+## Tecnologias
+- [JavaScript](https://www.javascript.com/)
+- [Node.js](https://nodejs.org/en/)
+- [Next.js](https://nextjs.org/)
+
+---
+## Como baixar
+É necessário ter [Node.js](https://nextjs.org/), e [npm](https://www.npmjs.com/get-npm) ou [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable) já instalado em sua maquina, caso não tenha
+click no nome respctivo. 
 
 ```bash
-npx create-next-app --example with-styled-components with-styled-components-app
-# or
-yarn create next-app --example with-styled-components with-styled-components-app
+# No terminal, e no diretorio de sua escolha, copie e cole.
+git clone https://github.com/gab1005/Alura_QuizYuGiOh
+# ou use a opção de download do propio GitHub.
+
+# Instale as dependências  
+npm install
+
+# Ou, se preferir yarn
+yarn install
+
+# Para executar
+npm run
+
+# para executar como desenvolvedor
+npm run dev
+
+# Ou, no yarn
+yarn dev
 ```
+Para demais dúvidas, acesse:
+- [Node.js](https://nextjs.org/)
+- [npm](https://www.npmjs.com/get-npm)
+- [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+---
+## Autor
+Feito por [Gabriel de Sousa](https://www.linkedin.com/in/gabriel-sousa-06858719b/)
 
-### Try it on CodeSandbox
-
-[Open this example on CodeSandbox](https://codesandbox.io/s/github/vercel/next.js/tree/canary/examples/with-styled-components)
-
-### Notes
-
-When wrapping a [Link](https://nextjs.org/docs/api-reference/next/link) from `next/link` within a styled-component, the [as](https://styled-components.com/docs/api#as-polymorphic-prop) prop provided by `styled` will collide with the Link's `as` prop and cause styled-components to throw an `Invalid tag` error. To avoid this, you can either use the recommended [forwardedAs](https://styled-components.com/docs/api#forwardedas-prop) prop from styled-components or use a different named prop to pass to a `styled` Link.
-
-<details>
-<summary>Click to expand workaround example</summary>
-<br />
-
-**components/StyledLink.js**
-
-```javascript
-import Link from 'next/link'
-import styled from 'styled-components'
-
-const StyledLink = ({ as, children, className, href }) => (
-  <Link href={href} as={as} passHref>
-    <a className={className}>{children}</a>
-  </Link>
-)
-
-export default styled(StyledLink)`
-  color: #0075e0;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-
-  &:hover {
-    color: #40a9ff;
-  }
-
-  &:focus {
-    color: #40a9ff;
-    outline: none;
-    border: 0;
-  }
-`
-```
-
-**pages/index.js**
-
-```javascript
-import StyledLink from '../components/StyledLink'
-
-export default () => (
-  <StyledLink href="/post/[pid]" forwardedAs="/post/abc">
-    First post
-  </StyledLink>
-)
-```
-
-</details>
+---
+## Licença
+Este projeto esta sobe a licença [MIT](./LICENSE).
