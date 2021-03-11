@@ -13,7 +13,7 @@
 
 ---
 <h3 align="center">
-  <a href="https://aluraquiz-base-gab1005.vercel.app/">Visite a aplicação</a>
+  <a href="https://aluraquiz-base-gab1005.vercel.app/" target="_blank">Visite a aplicação</a>
 </h3>
 
 ---
@@ -30,7 +30,7 @@
 ## Discrição
 
 Aplicação feita em aulas ministradas pela equipe da [Alura](https://www.alura.com.br/).
-A aplicação é um quiz sobre o anime YuGiOh!, se divita respondendo ele em [aqui](https://aluraquiz-base-gab1005.vercel.app/).
+A aplicação é um quiz sobre o anime YuGiOh!, se divita respondendo ele em <a href="https://aluraquiz-base-gab1005.vercel.app/" target="_blank">aqui</a>.
 
 ---
 ## Status
