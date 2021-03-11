@@ -29,8 +29,8 @@
 ---
 ## Discrição
 
-Aplicação feita em aulas ministradas pela equipe da [Alura](https://www.alura.com.br/).
-A aplicação é um quiz sobre o anime YuGiOh!, se divita respondendo ele em <a href="https://aluraquiz-base-gab1005.vercel.app/" target="_blank">aqui</a>.
+Aplicação feita em aulas ministradas pela equipe da <a href="https://www.alura.com.br/" target="_blank">Alura</a>.
+A aplicação é um quiz sobre o anime YuGiOh!, se divirta respondendo ele em <a href="https://aluraquiz-base-gab1005.vercel.app/" target="_blank">aqui</a>.
 
 ---
 ## Status
@@ -45,13 +45,13 @@ Em construção.
 
 ---
 ## Tecnologias
-- [JavaScript](https://www.javascript.com/)
-- [Node.js](https://nodejs.org/en/)
-- [Next.js](https://nextjs.org/)
+- <a href="https://www.javascript.com/" target="_blank">JavaScript</a>
+- <a href="https://nodejs.org/pt-br/" target="_blank">Node.js</a>
+- <a href="https://nextjs.org/" target="_blank">Next.js</a>
 
 ---
 ## Como baixar
-É necessário ter [Node.js](https://nextjs.org/), e [npm](https://www.npmjs.com/get-npm) ou [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable) já instalado em sua maquina, caso não tenha
+É necessário ter <a href="https://nodejs.org/pt-br/" target="_blank">Node.js</a>, e <a href="https://www.npmjs.com/get-npm" target="_blank">npm</a> ou <a href="https://classic.yarnpkg.com/en/docs/install/#windows-stable" target="_blank">yarn</a> já instalado em sua maquina, caso não tenha
 click no nome respctivo. 
 
 ```bash
@@ -75,13 +75,13 @@ npm run dev
 yarn dev
 ```
 Para demais dúvidas, acesse:
-- [Node.js](https://nextjs.org/)
-- [npm](https://www.npmjs.com/get-npm)
-- [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+- <a href="https://nodejs.org/pt-br/" target="_blank">Node.js</a>
+- <a href="https://www.npmjs.com/get-npm" target="_blank">npm</a>
+- <a href="https://classic.yarnpkg.com/en/docs/install/#windows-stable" target="_blank">yarn</a>
 
 ---
 ## Autor
-Feito por [Gabriel de Sousa](https://www.linkedin.com/in/gabriel-sousa-06858719b/)
+Feito por <a href="https://www.linkedin.com/in/gabriel-sousa-06858719b/" target="_blank">Gabriel Sousa</a>
 
 ---
 ## Licença
