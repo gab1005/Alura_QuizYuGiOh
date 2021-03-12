@@ -81,7 +81,7 @@ Para demais dúvidas, acesse:
 
 ---
 ## Autor
-Feito por <a href="https://www.linkedin.com/in/gabriel-sousa-06858719b/" target="_blank">Gabriel Sousa</a>
+Feito por <a href="https://www.linkedin.com/in/sousaggabriel/" target="_blank">Gabriel Sousa</a>
 
 ---
 ## Licença
