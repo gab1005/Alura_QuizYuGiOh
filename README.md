@@ -1,4 +1,4 @@
-# YuGiQuiz
+# YuGiQuizasdfasdfasdfasdfa
 <h1>
   <img src="./public/capa_yugiquiz.png" alt="Tela Inicial" title="Tela Inicial" />
 </h1>
